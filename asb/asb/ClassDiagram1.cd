@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azure.Messaging.ServiceBus.ServiceBusMessage">
+    <Position X="6.25" Y="2.5" Width="2" />
+    <Members>
+      <Method Name="GetRawAmqpMessage" Hidden="true" />
+      <Method Name="ServiceBusMessage" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

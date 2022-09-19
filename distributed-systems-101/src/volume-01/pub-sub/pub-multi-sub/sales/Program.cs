@@ -9,7 +9,7 @@ namespace Sales
     {
         public static void Main()
         {
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost" , UserName = "user", Password = "password" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
