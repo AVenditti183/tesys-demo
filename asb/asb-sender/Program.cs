@@ -5,8 +5,8 @@ using System.Text.Json;
 using asb.dto;
 using Azure.Messaging.ServiceBus;
 
-var connectionString = "Endpoint=sb://as-service-bus.servicebus.windows.net/;SharedAccessKeyName=d365;SharedAccessKey=q1N7Kb+eGINU2X1SVBbHG0W6mLElitLQZYEgDuZPDFc=;EntityPath=anagrafica-articoli";
-var topic = "anagrafica-articoli";
+var connectionString = "Endpoint=sb://teacher-asb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ymcFgoJ1fNLzFMOxNMxDdcKwOC2+uQoooGI19L446AA=";
+var topic = "topic1";
 var client = new ServiceBusClient(connectionString);
 var sender = client.CreateSender(topic);
 var message = new ASMessage

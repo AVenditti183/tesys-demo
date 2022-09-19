@@ -12,9 +12,9 @@ var policy = new RetryExponential(
     maximumBackoff: TimeSpan.FromSeconds(30),
     maximumRetryCount: 3);
 
-var connectionString = "Endpoint=sb://as-service-bus.servicebus.windows.net/;SharedAccessKeyName=cesar;SharedAccessKey=0voaavzx/ZzEAxEGbTmE8e0u4399HxjsLWQV8FbUkCg=;EntityPath=anagrafica-articoli";
-var topic = "anagrafica-articoli";
-var subscription = "Cesar";
+var connectionString = "Endpoint=sb://teacher-asb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ymcFgoJ1fNLzFMOxNMxDdcKwOC2+uQoooGI19L446AA=";
+var topic = "topic1";
+var subscription = "sottoscrizione1";
 var client = new ServiceBusClient(connectionString);
 var receiver = client.CreateReceiver(topic, subscription);
 
