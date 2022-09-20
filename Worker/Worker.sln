@@ -5,7 +5,15 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{72B6FF46-BD0B-4852-9F67-78BBFAB4D6AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker.Infrastructures", "src\Worker.Infrastructures\Worker.Infrastructures.csproj", "{51890F26-BECB-4C9B-9F5D-EE65B8559EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker.Infrastructures", "src\Worker.Infrastructures\Worker.Infrastructures.csproj", "{51890F26-BECB-4C9B-9F5D-EE65B8559EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5FF2C4BE-EE51-47B7-B564-0984B04CCAF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5DB3AB71-1757-4C25-931A-696D5E0959B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker.Italia", "src\Worker.Italia\Worker.Italia.csproj", "{99A57A68-4431-4253-BC95-B538AF2B3C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker.Italia6", "src\Worker.Italia6\Worker.Italia6.csproj", "{511A699C-06CE-4404-8781-9156C25924F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +25,22 @@ Global
 		{51890F26-BECB-4C9B-9F5D-EE65B8559EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51890F26-BECB-4C9B-9F5D-EE65B8559EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51890F26-BECB-4C9B-9F5D-EE65B8559EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A57A68-4431-4253-BC95-B538AF2B3C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A57A68-4431-4253-BC95-B538AF2B3C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A57A68-4431-4253-BC95-B538AF2B3C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A57A68-4431-4253-BC95-B538AF2B3C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511A699C-06CE-4404-8781-9156C25924F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511A699C-06CE-4404-8781-9156C25924F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511A699C-06CE-4404-8781-9156C25924F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511A699C-06CE-4404-8781-9156C25924F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{51890F26-BECB-4C9B-9F5D-EE65B8559EE9} = {72B6FF46-BD0B-4852-9F67-78BBFAB4D6AE}
+		{99A57A68-4431-4253-BC95-B538AF2B3C23} = {5DB3AB71-1757-4C25-931A-696D5E0959B0}
+		{511A699C-06CE-4404-8781-9156C25924F1} = {5DB3AB71-1757-4C25-931A-696D5E0959B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E82365B9-0ABB-44E8-9484-08EA74A6F3A7}

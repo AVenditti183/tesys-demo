@@ -48,7 +48,7 @@ namespace Worker.Infrastructures.RabbitMQ
             Func<Type, object> consumerFactory
         )
         {
-            endpoint.UseMessageRetry(config => config.SetRetryPolicy(x => x.Interval(5, TimeSpan.FromSeconds(1))));
+            endpoint.UseMessageRetry(config => config.SetRetryPolicy(x => x.Interval(5, TimeSpan.FromSeconds(10))));
 
             foreach (var consumerType in consumerTypes)
                 endpoint.Consumer(consumerType, consumerFactory);
