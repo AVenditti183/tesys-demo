@@ -8,6 +8,7 @@ namespace Module5.Regular.ReadStack
         public QueryDbContext()
             : base("name=MerloEntities")
         {
+            Configuration.AutoDetectChangesEnabled = false;
         }
 
         public virtual DbSet<Match> Matches { get; set; }
