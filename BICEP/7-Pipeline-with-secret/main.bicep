@@ -19,13 +19,13 @@ var sqlAdministratorPassword = json(loadTextContent('bicep_configuration/configu
 param storageSku string = 'Standard_LRS'
 
 // variables
-var storageResourceName = 'stbicepsession${environment}'
-var planResourceName = 'plan-bicepsession-${environment}'
-var funcResourceName = 'func-bicepsession-${environment}'
-var sqlResourceName = 'sql-bicepsession-${environment}'
-var sqldbResourceName = 'sqldb-bicepsession-${environment}'
-var appiResourceName = 'appi-bicepsession-${environment}'
-var kvResourceName = 'kv-bicepsession-main'
+var storageResourceName = 'stbicepsessiontea${environment}'
+var planResourceName = 'plan-bicepsessiontea-${environment}'
+var funcResourceName = 'func-bicepsessiontea-${environment}'
+var sqlResourceName = 'sql-bicepsessiontea-${environment}'
+var sqldbResourceName = 'sqldb-bicepsessiontea-${environment}'
+var appiResourceName = 'appi-bicepsessiontea-${environment}'
+var kvResourceName = 'kv-bicepsession-main-tea'
 
 module monitoring 'modules/monitoring.bicep' = {
   name: 'monitoring'

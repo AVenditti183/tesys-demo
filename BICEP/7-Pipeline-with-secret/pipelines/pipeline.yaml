@@ -3,7 +3,7 @@ trigger: none
 parameters:
   - name: ResourceGroup
     type: string
-    default: bb-gherard
+    default: teacher
     
   - name: TemplateFile
     type: string
@@ -15,7 +15,7 @@ parameters:
   
   - name: FuncAppName
     type: string
-    default: func-bicepsession-prod
+    default: func-bicepsessiontea-prod
 
 stages:
 - stage: 'Provisioning'
