@@ -11,7 +11,7 @@
     "sqlAdministratorPassword": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/403624a6-e899-4d2b-95df-ec6353be64a8/resourceGroups/bb-gherard/providers/Microsoft.KeyVault/vaults/kv-bicepsession-main"
+          "id": "/subscriptions/1e6b2ddd-befc-4833-ac69-38c31742b07c/resourceGroups/teacher/providers/Microsoft.KeyVault/vaults/kv-bicepsession-main-tea"
         },
         "secretName": "sqlpassword"
       }
