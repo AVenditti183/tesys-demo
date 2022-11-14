@@ -24,7 +24,7 @@ var funcResourceName = 'func-bicepsession-${environment}'
 var sqlResourceName = 'sql-bicepsession-${environment}'
 var sqldbResourceName = 'sqldb-bicepsession-${environment}'
 var appiResourceName = 'appi-bicepsession-${environment}'
-var kvResourceName = 'kv-bicepsession-main'
+var kvResourceName = 'kv-bicepsession-main-tea'
 
 module monitoring 'modules/monitoring.bicep' = {
   name: 'monitoring'
