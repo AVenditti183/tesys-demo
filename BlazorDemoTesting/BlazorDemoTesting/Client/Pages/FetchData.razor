@@ -1,6 +1,8 @@
 ﻿@page "/fetchdata"
 @using BlazorDemoTesting.Shared
-@inject HttpClient Http
+@using BlazorDemoTesting.Client.Services
+
+@inject IWeatherForecastService service
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -42,6 +44,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        forecasts = await service.Get();
     }
 }
