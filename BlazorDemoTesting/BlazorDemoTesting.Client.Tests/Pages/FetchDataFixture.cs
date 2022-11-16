@@ -54,7 +54,7 @@ namespace BlazorDemoTesting.Client.Tests.Pages
   </thead>
   <tbody>
     <tr>
-      <td>{item.Date.ToString("dd/MM/yyyy")}</td>
+      <td>{item.Date.ToShortDateString()}</td>
       <td>{item.TemperatureC}</td>
       <td>{item.TemperatureF}</td>
       <td>{item.Summary}</td>
