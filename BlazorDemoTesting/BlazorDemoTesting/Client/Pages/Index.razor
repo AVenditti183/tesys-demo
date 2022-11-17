@@ -1,9 +1,33 @@
 ﻿@page "/"
+@inject HttpClient client
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Hello, world! - @title </h1>
 
-Welcome to your new app.
+Che bella modifica2
+
+<MYComponent Title="Prova Titolo" OnClick="callback"></MYComponent>
+
+@if (view)
+{
+    <h3>che bello</h3>
+}
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+@code
+{
+    private bool view = false;
+    private string title = "";
+    
+    protected override  async Task OnInitializedAsync()
+    {
+        title = await client.GetStringAsync("api/title");
+    }
+
+    private void callback(string s)
+    {
+        title = s; view = true;
+    }
+}

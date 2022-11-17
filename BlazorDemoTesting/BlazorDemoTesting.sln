@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemoTesting.Server", "BlazorDemoTesting\Server\BlazorDemoTesting.Server.csproj", "{0F80539B-AC3D-4D6F-BBF5-C5E94B82FC1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDemoTesting.Server", "BlazorDemoTesting\Server\BlazorDemoTesting.Server.csproj", "{0F80539B-AC3D-4D6F-BBF5-C5E94B82FC1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemoTesting.Client", "BlazorDemoTesting\Client\BlazorDemoTesting.Client.csproj", "{05DE810F-C213-4D4F-9D43-51198D4ED12D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDemoTesting.Client", "BlazorDemoTesting\Client\BlazorDemoTesting.Client.csproj", "{05DE810F-C213-4D4F-9D43-51198D4ED12D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemoTesting.Shared", "BlazorDemoTesting\Shared\BlazorDemoTesting.Shared.csproj", "{C18C170C-F00A-4784-8DA6-9502E2B29C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDemoTesting.Shared", "BlazorDemoTesting\Shared\BlazorDemoTesting.Shared.csproj", "{C18C170C-F00A-4784-8DA6-9502E2B29C0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9BD23F06-6E76-498C-AB21-EC6AE2CB423A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A157A9D0-4AAD-43B4-9250-5A3F3B1CF57C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemoTesting.Server.Tests", "BlazorDemoTesting.Server.Tests\BlazorDemoTesting.Server.Tests.csproj", "{80BEDA99-AC7C-4250-83CD-6A1BDE5C3239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDemoTesting.Server.Tests", "BlazorDemoTesting.Server.Tests\BlazorDemoTesting.Server.Tests.csproj", "{80BEDA99-AC7C-4250-83CD-6A1BDE5C3239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDemoTesting.Client.Tests", "BlazorDemoTesting.Client.Tests\BlazorDemoTesting.Client.Tests.csproj", "{AD61F93A-DEDF-40FE-A044-E41696159ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDemoTesting.Client.Tests", "BlazorDemoTesting.Client.Tests\BlazorDemoTesting.Client.Tests.csproj", "{AD61F93A-DEDF-40FE-A044-E41696159ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

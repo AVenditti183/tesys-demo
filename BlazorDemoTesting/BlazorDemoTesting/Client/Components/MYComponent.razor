@@ -1,0 +1,21 @@
+﻿<h3>MYComponent</h3>
+<h2>@Title</h2>
+
+<input type="text" @bind-value="value" />
+
+<button class="btn btn-primary" @onclick="click"></button>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+
+    private string value;
+
+    private async Task click()
+    {
+       await OnClick.InvokeAsync(value);
+    }
+}
